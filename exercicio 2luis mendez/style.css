@@ -1,0 +1,122 @@
+header {
+	background: #e9e8f073;
+
+}
+
+.titulo-principal{
+	text-align: center;
+	font-style: italic;
+	
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+#imagemprincipal{
+	width: 20%;
+	height: 200px;
+	margin: 0 0 0 25px ;
+}
+	
+
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+.musica{
+	width: 250px;	
+	height: 250px;
+	padding:  10px, auto;
+	position: absoluta;
+	box-sizing: border-box;
+	border-style: double;
+	border-radius: 15%;
+	margin-block: 40px;
+	margin-inline-start: 35px;
+	margin-inline: 41px;
+	
+	
+}
+
+.texto{
+	font-style: italic;
+    display: block;
+	font-style: oblique;
+	text-align: center;
+	
+}	
+
+.tipos-musica{
+	background-color:#dcd8f173;
+}
+
+.tipos-musica li {
+	position: relative;
+	display: inline-block;
+	
+	
+}
+
+.tipos-musica li:hover {
+	border-color: #C78C19;
+}
+
+.tipos-musica li:active {
+	border-color: #088C19;	
+}
+
+.tipos-musica li:hover h2 {
+	font-size: 30px;
+}
+
+.tipos-musica h2 {
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+	
+.bandas{
+	width: 50px;	
+	height: 50px;
+	padding:  10px, auto;
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 15%;
+	margin-block: 40px;
+	margin-inline-start: 15px;
+	margin-inline: 41px;
+}
+
+.estilo{
+	padding: 30px 15px 15px 15px;
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
